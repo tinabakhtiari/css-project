@@ -1287,4 +1287,8 @@ padding-top: 5px;
         #social-media {
         width: 128%;
     }
+        .ice-items:hover .layer p {
+        top: 5rem;
+        right: 3.5rem;
+    }
 }
