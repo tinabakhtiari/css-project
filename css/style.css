@@ -829,7 +829,6 @@ padding-top: 5px;
 
 #recipe{
     width:42%;
-    height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
