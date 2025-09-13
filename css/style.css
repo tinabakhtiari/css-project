@@ -982,7 +982,7 @@ padding-top: 5px;
 
 @media screen and (max-width:1062px) {
     #social-media a, #header-list ul li {
-        font-size: 15px;
+        font-size: 16px;
     }
     #social-media a{
         width: 35px;
@@ -1082,13 +1082,16 @@ padding-top: 5px;
     gap:6rem;
      }
       #social-media a, #header-list ul li {
-        font-size: 14px;
+        font-size: 15px;
     }
-     #social-media{
+    #social-media{
         width: 54%;
+    }
+     #Follow #social-media{
+        width: 110%;
      }
      #header-list{
-        width:100%;
+        width:77%;
         display: flex;
      }
      #logo{
@@ -1133,6 +1136,8 @@ padding-top: 5px;
           gap:0;
           padding-bottom: 1rem;
      }
+      #header-list{
+        width:100%;}
      #logo{
         width:10%;
      }
@@ -1210,7 +1215,7 @@ padding-top: 5px;
     #img-center {
     width:70%;}
 
-       #social-media{
+     #social-media{
         width: 52%;
      }
     
