@@ -107,12 +107,7 @@ header{
      /* background:url(../images/img1.jpg) no-repeat fixed top right; */
      border: none;
 }
-#slideshow h3{
-    transition-duration: 10s;
-}
-#slideshow p{
-    transition-duration: 10s;
-}
+
 #part2::before{
     content: " ";
     position: absolute;
@@ -858,12 +853,13 @@ padding-top: 5px;
     border-bottom-width: 2px;
     border-bottom-color:#615d5d;
     margin:0 151px 6px 3px;
+    transition: all 0.8s linear;
 }
 .recipe-part:hover .dash-border{
      margin:0 3px 6px 3px;
      width: 70%;
       border-bottom-color:#ffa7c0;
-     transition: all 0.8s linear;
+     
 }
 .recipe-part:hover{
     border: 2px dashed #6d6a6a94;
